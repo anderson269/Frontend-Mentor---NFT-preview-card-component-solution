@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://frontend-mentor-nft-preview-card-component-solution-liart.vercel.app/)
+- Live Site URL: [Frontend Mentor - NFT preview card component solution](https://frontend-mentor-nft-preview-card-component-solution-liart.vercel.app/)
 
 ## My process
 
