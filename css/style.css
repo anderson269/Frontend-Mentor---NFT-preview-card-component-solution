@@ -1,0 +1,147 @@
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --very-dark-blue-main-bg: hsl(217, 54%, 11%);
+    --very-dark-blue-card-bg: hsl(216, 50%, 16%);
+    --white: hsl(0, 0%, 100%);
+    font-family: 'Outfit';
+    font-weight: 300;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    width: 100%;
+    background-color: var(--very-dark-blue-main-bg);
+}
+
+main {
+    width: 87.2%;
+    background-color: var(--very-dark-blue-card-bg);
+    border-radius: 1.25em;
+    padding: 1.5em;
+    margin: 2.18em auto;
+    box-shadow: 0 0 .93em .62em var(--very-dark-blue-main-bg);
+}
+
+.nft-img {
+    position: relative;
+    margin: 0 auto;
+    border-radius: .62em;
+}
+
+.nft-img > img {
+    border-radius: .62em;
+}
+
+.view-overlay {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: .62em;
+    background-color: hsla(178, 100%, 50%, 0.3);
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.info-block {
+    margin-top: 1.8em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid var(--soft-blue);
+}
+
+.nft-name {
+    display: inline-block;
+    font-size: 1.43rem;
+    font-weight: 400;
+    color: var(--white);
+    cursor: pointer;
+}
+.nft-name:hover {
+    color: var(--cyan);
+}
+
+.nft-description {
+    display: block;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--soft-blue);
+    margin-top: .93em;
+}
+
+.nft-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.06em;
+}
+
+.icon {
+    align-self: flex-start;
+    margin-right: .37em;
+}
+
+.nft-price {
+    display: inline-flex;
+    align-items: center;
+}
+
+.price {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cyan);
+    padding-top: .18em;
+}
+
+.nft-countdown {
+    display: inline-flex;
+    align-items: center;
+}
+
+.countdown {
+    color: var(--soft-blue);
+    padding-top: .06em;
+}
+
+.profile-block {
+    display: flex;
+    align-items: center;
+    margin-top: .93em;
+}
+
+.profile-img {
+    height: 2.06em;
+    min-width: 2.06em;
+    border-radius: 50% 50%;
+    border: 1px solid var(--white);
+    margin-right: .93em;
+}
+
+.profile-img > img {
+    height: 100%;
+}
+
+.profile-credits {
+    display: block;
+    color: var(--soft-blue);
+}
+
+strong {
+    color: var(--white);
+    cursor: pointer;
+}
+strong:hover {
+    color: var(--cyan);
+}
+
+@media (min-width: 46.5em) {
+    main {
+        width: 24.3%;
+    }
+}
